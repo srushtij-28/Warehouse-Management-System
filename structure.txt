@@ -1,0 +1,44 @@
+Features
+- Add, view, search, and update products
+- Register and manage suppliers
+- Manage warehouse storage locations
+- Record incoming stock
+- Record outgoing stock
+- Prevent stock from becoming negative
+- Track stock movement history
+- Set minimum stock levels
+- Generate low-stock alerts
+- Generate inventory valuation reports
+- View stock by warehouse location
+- Store records in JSON files
+
+Tech stack
+- Python
+- JSON
+- Datetime
+- UUID
+- OS
+
+1. Folder structure
+Create this project structure in VS Code:
+warehouse-management-system/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── product_manager.py
+├── supplier_manager.py
+├── location_manager.py
+├── stock_manager.py
+├── movement_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── products.json
+│   ├── suppliers.json
+│   ├── locations.json
+│   └── movements.json
+│
+├── .gitignore
+└── README.md
